@@ -1,4 +1,4 @@
-from blog import db
+from blogpost import db
 from flask import url_for
 import datetime
 
