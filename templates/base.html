@@ -4,26 +4,42 @@
     <meta charset="utf-8">
     <title>DAJIC POST GROUP</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/blog.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <style>.content {padding-top: 80px;} a.brand {color: #fff }</style>
   </head>
 
   <body>
-
+<div>
     {%- block topbar -%}
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <h2>
-              <a href="/" class="brand">DAJIC POST GROUP</a> <medium>Wonder how to? Try this post right here....</medium>
+              <ul>
+              <li><a href="/" class="brand"><b>DAJIC POST GROUP</b></a></li> <li><medium class="group"text-right>Wonder how to? Try this post right here....</medium></li>
+              </ul>
           </h2>
         </div>
         <div class="navbar-collapse">
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
+    </nav></div>
+    <div class="col12 background ">
+    <div class="col2"><br></div>
+    <div class="col8 ">
+    <br><br><br><br><br>
+    <div class=" overlay">
+    <p class="p"><b>INTERESTED IN KNOWING GROUP UPDATES?<br> SCROLL DOWN<br><br>CONTRIBUTING TO THEM?
+<br><b</b></p> <br>
+</div>
+</div>
+<div class="col2"><br></div>
+</div>
     {%- endblock -%}
 
-    <div class="container">
+    <div class="container block">
       <div class="content">
         {% block page_header %}{% endblock %}
         {% block content %}{% endblock %}

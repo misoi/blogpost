@@ -23,6 +23,7 @@
   {% endif %}
   <p>{{ post.created_at.strftime('%H:%M %Y-%m-%d') }}</p>
   <hr>
+  <div >
   <h2>Comments</h2>
   {% if post.comments %}
     {% for comment in post.comments %}
@@ -39,5 +40,5 @@
       <input type="submit" class="btn btn-primary" value="comment">
     </div>
   </form>
-  <hr>
+  <hr></div>
 {% endblock %}
